@@ -1,0 +1,104 @@
+[
+    {
+        "categoryId": "evidence",
+        "categoryAssignedFilters": [
+            {
+                "id": "geisterbuch"
+            },
+            {
+                "id": "emf5"
+            },
+            {
+                "id": "gefriertemperatur"
+            },
+            {
+                "id": "fingerabdruecke"
+            },
+            {
+                "id": "geisterbox"
+            },
+            {
+                "id": "orbs"
+            },
+            {
+                "id": "dots"
+            }
+        ]
+    },
+	{
+        "categoryId": "hints",
+        "categoryAssignedFilters": [
+            {
+                "id": "footprint"
+            },
+			{
+                "id": "blinkSlowly"
+            },
+			{
+                "id": "throwsALot"
+            },
+			{
+                "id": "blinkFast"
+            },
+			{
+                "id": "freezingBreath"
+            },
+			{
+                "id": "blinkChangeModels"
+            },
+			{
+                "id": "quiet"
+            },
+            {
+                "id": "huntsEarly"
+            },
+            {
+                "id": "sixFingerFingerprint"
+            }
+		]
+	},
+    {
+        "categoryId": "ghostSpeed",
+        "categoryAssignedFilters": [
+            {
+                "id": "speedSlow"
+            },
+            {
+                "id": "speedNormal"
+            },
+            {
+                "id": "speedFast"
+            },
+            {
+                "id": "speedExtremeFast"
+            },
+            {
+                "id": "speedSwapping"
+            },
+            {
+                "id": "speedFastIfAway"
+            },
+            {
+                "id": "speedFastIfAwayAndBreakerOn"
+            },
+            {
+                "id": "speedVeryFastOnSight"
+            },
+            {
+                "id": "speedFastNearElectronicEquip"
+            },
+            {
+                "id": "speedFastIfCold"
+            },
+            {
+                "id": "speedStartsFastAndGetsSlower"
+            },
+            {
+                "id": "speedLowerSanityHigherSpeed"
+            },
+            {
+                "id": "speedSlowIfClose"
+            }
+        ]
+    }
+]
