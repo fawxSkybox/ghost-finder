@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Phasmophobia Ghost Finder</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Phasmophobia Ghost Finder - A tool to find ghosts based on regular evidence, but also with other clues and info on behaviors and more to determine the right ghost.">
+        <meta name="keywords" content="Phasmophobia, Ghost, Finder, Ghost Finder, Filter, Evidence, Proofs, Beweise, EMF, EMF5, Temperature, Orbs, Geisterkugeln, Dots, Projektor, Fingerabdrücke, Fingerprints, Geisterbuch, Ghost book, Ghost box, Geisterbox, Salz, Tool, Helper, Hints, Hinweise, Tips, Spirit, Wraith, Gespenst, Phantom, Poltergeist, Banshee, Dschinn, Jinn, Mare, Revenant, Shade, Dämon, Demon, Yurei, Oni, Hantu, Yokai, Goryo, Myling, Onryo, Zwillinge, Twins, Raiju, Obake, Mimik, Mimic, Moroi, Deogen, Thaye, Game, Hunter, Ghosthunter,">
+        <meta name="author" content="chrizz fawx">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="Resources/css/app.css" rel="stylesheet">
+    </head>
+    <body data-bs-theme="dark" class="bg-black">
+        <div class="d-flex flex-column" style="height: 100vh;">
+            <header>
+                <div class="container py-5 position-relative">
+                    <div class="language-switch js-language-switch position-absolute top-0 end-0 w-auto mt-4">
+                        <div class="dropdown">
+                            <a class="btn btn-dark dropdown-toggle text-start" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="language-switch-button-flag lang-icon me-2"></span><span data-i18n="language-switch.button-label"></span>
+                            </a>
+                        
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <span class="dropdown-item js-change-language" data-langKey="en"><img class="lang-icon me-2 bg-white rounded" width="20" height="12" src="Resources/images/language/en.svg" alt="us-uk flag" />English</span>
+                                </li>
+                                <li>
+                                    <span class="dropdown-item js-change-language" data-langKey="de"><img class="lang-icon me-2 rounded" width="20" height="12" src="Resources/images/language/de.svg" alt="de flag" />Deutsch</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="logo-container w-100 text-center">
+                        <img class="logo" src="Resources/images/logo.png" alt="Phasmophobia" />
+                        <h1 class="h2" data-i18n="page-title"></h1>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="container py-5">
+                    <h3 class="mb-5" data-i18n="welcome-message"></h3>
+                    <figure class="quote">
+                        <blockquote class="blockquote mb-0">
+                            <p data-i18n="venkman-quote.quote"></p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer" data-i18n="venkman-quote.quoter"></figcaption>
+                    </figure>
+                    <article class="my-5 info-text" data-i18n="info-text"></article>
+                    
+                    <div class="ghostfilter js-ghostfilter bg-dark p-5 mt-5 position-relative">
+                        <h3 class="mb-4"><i class="fa-solid fa-filter me-3 fs-2"></i><span data-i18n="filters.title"></span></h3>
+                        <div class="js-reset-button-container"><!-- will be filled by js --></div>
+                        <div class="filter-section js-filter-section">
+                            <!-- will be filled by js -->
+                        </div>
+                        <hr class="my-5 border-4">
+                        <h3 class="mb-4"><i class="fa-solid fa-ghost me-3 fs-2"></i><span data-i18n="ghosts.title"></span></h3>
+                        <div class="filter-results js-filter-results">
+                            <!-- will be filled by js -->
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="bg-dark py-5">
+                <div class="container">
+                    <div class="px-5 px-sm-0">
+                        <div class="text-muted text-center mb-5" data-i18n="made-with-love"></div>
+                        <div class="text-muted text-center mb-3" data-i18n="contact"></div>
+                        <div class="text-muted text-center">&copy; 2024 by chrizz fawx</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5d031864ee.js" crossorigin="anonymous"></script>
+    <script type="module" src="Resources/js/app.js"></script>
+    <script src="Resources/js/language.js"></script>
+</html>
