@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Passwortgeschützter Bereich"
+AuthUserFile /home/webpages/lima-city/fawx/.htpasswd
+Require phasmo
