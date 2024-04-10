@@ -9,11 +9,7 @@ RewriteRule ^(.*)$ http://www.ghost-finder.com/$1 [r=301,nc]
 Header set Cache-Control "public, max-age=3600"
 </FilesMatch>
 
-//Password Protect file
-AuthName "Secured Area"
-AuthType Basic
-AuthUserFile /home/webpages/lima-city/fawx/.htpasswd
-Require valid-user
+
 
 //Block bad bots
 RewriteEngine On 
