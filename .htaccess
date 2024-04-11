@@ -7,14 +7,6 @@ RewriteRule ^(.*)$ http://www.ghost-finder.com/$1 [r=301,nc]
 Header set Cache-Control "public, max-age=3600"
 </FilesMatch>
 
-
-AuthName "Secured Area"
-AuthType Basic
-AuthUserFile /home/webpages/lima-city/fawx/.htpasswd
-Require valid-user
-
-
-
 RewriteEngine On 
 RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Bot\ mailto:craftbot@yahoo.com [OR]
