@@ -96,7 +96,21 @@ ghostfilters.forEach(ghostfilter => {
 										<div class="dropdown-center">
 											<a class="ghost-dropdown-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><i class="fa-solid fa-circle-info"></i></a>
 											<div class="dropdown-menu p-4">
-												<div data-i18n="ghosts.${ghost.id}.description"></div>
+												<div class="mb-4" data-i18n="ghosts.${ghost.id}.description"></div>
+												<span data-i18n="ghosts.${ghost.id}.description.wikilink"></span>
+												<div class="mt-4" data-i18n="ghosts.${ghost.id}.description.badges"></div>
+												<div class="accordion mt-4 has-tip-${ghost.hasTip}" id="accordion-${ghost.id}">
+													<div class="accordion-item">
+														<span class="accordion-header fw-bold" id="heading-${ghost.id}">
+															<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tipp-${ghost.id}" aria-expanded="false" aria-controls="tipp-${ghost.id}">
+															Tipp
+															</button>
+														</span>
+														<div id="tipp-${ghost.id}" class="accordion-collapse collapse" aria-labelledby="heading-${ghost.id}" data-bs-parent="#accordion-${ghost.id}">
+															<div class="accordion-body" data-i18n="ghosts.${ghost.id}.description.tipp"></div>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
