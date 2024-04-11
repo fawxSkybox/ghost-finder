@@ -31,7 +31,7 @@
 
 
     "filters.cat.hints.name": "Hinweise",
-    "filters.cat.hints.description": "Andere Tipps, die Ihnen helfen können, den Geist zu bestimmen.",
+    "filters.cat.hints.description": "Andere Tipps, die euch helfen können, den Geist zu bestimmen.",
 
     "filters.hints.footprint": "Fußabdruck im Salz",
     "filters.hints.blinkSlowly": "Langsames Blinken",
@@ -60,7 +60,7 @@
     "filters.ghostSpeed.speedNormal": "Normal",
     "filters.ghostSpeed.speedFast": "Schnell",
     "filters.ghostSpeed.speedExtremeFast": "Extrem Schnell",
-    "filters.ghostSpeed.speedSwapping": "Wechselndes Tempo",
+    "filters.ghostSpeed.speedSwapping": "Wechselnde Geschwindigkeit",
     "filters.ghostSpeed.speedFastIfClose": "Schnell wenn nahe",
     "filters.ghostSpeed.speedVeryFastOnSight": "Sehr schnell in Sichtlinie",
     "filters.ghostSpeed.speedFastNearElectronicEquip": "Schnell bei aktiven elektronischen Geräten",
@@ -113,30 +113,126 @@
     "ghosts.deogen.name": "Deogen",
     "ghosts.thaye.name": "Thaye",
     
-    "ghosts.spirit.description": "Spirit description",
-    "ghosts.wraith.description": "Gespenst description",
-    "ghosts.phantom.description": "Phantom description",
-    "ghosts.poltergeist.description": "Poltergeist description",
-    "ghosts.banshee.description": "Banshee description",
-    "ghosts.jinn.description": "Dschinn description",
-    "ghosts.mare.description": "Mare description",
-    "ghosts.revenant.description": "Revenant description",
-    "ghosts.shade.description": "Shade description",
-    "ghosts.demon.description": "Dämon description",
-    "ghosts.yurei.description": "Yurei description",
-    "ghosts.oni.description": "Oni description",
-    "ghosts.hantu.description": "Hantu description",
-    "ghosts.yokai.description": "Yokai description",
-    "ghosts.goryo.description": "Goryo description",
-    "ghosts.myling.description": "Myling description",
-    "ghosts.onryo.description": "Onryo description",
-    "ghosts.twins.description": "Twins description",
-    "ghosts.raiju.description": "Raiju description",
-    "ghosts.obake.description": "Obake description",
-    "ghosts.mimic.description": "Mimik description",
-    "ghosts.moroi.description": "Moroi description",
-    "ghosts.deogen.description": "Deogen description",
-    "ghosts.thaye.description": "Thaye description",
+    "ghosts.spirit.description": "“Der Spirit ist eine der gewöhnlichsten Geisterarten, jedoch ist er sehr stark und gefährlich. Sie werden für gewöhnlich in einem Gebiet gefunden, in dem der Tod einer Person ungeklärt blieb.”",
+    "ghosts.spirit.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Spirit' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.spirit.description.badges": "<span class='badge text-bg-light'>EMF Level 5</span> <span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-light'>Geisterbuch</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.spirit.description.tipp": "",
+
+    "ghosts.wraith.description": "“Ein Gespenst ist einer der gefährlichsten Geister, die Sie finden werden. Er ist auch bekannt als der Geist, der fliegen und durch Wände gehen kann.”",
+    "ghosts.wraith.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Gespenst' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.wraith.description.badges": "<span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-light'>Ultraviolett</span> <span class='badge text-bg-light'>D.O.T.S.-Projektor</span> <span class='badge text-bg-secondary border border-warning'>Kein Fußabdruck</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.wraith.description.tipp": "Das Gespenst lässt sich von geschlossenen Türen und Verstecken nicht beeindrucken. Gerade bei der Jagd kann ein Gespenst durch diese durchlaufen und Spieler darin erkennen. Weiter ist zu beachten, dass sich Gespenster auch durch geschlossene Türen manifestieren können.",
+    
+    "ghosts.phantom.description": "“Ein Phantom ist ein Geist, der von den Lebenden Besitz ergreifen kann. Meistens beschworen durch das Ouija-Brett. Verursacht Angst in den Menschen um ihn herum.”",
+    "ghosts.phantom.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Phantom' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.phantom.description.badges": "<span class='badge text-bg-light'>EMF Level 5</span> <span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-light'>D.O.T.S.-Projektor</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary border border-warning'>Langsames Blinken</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.phantom.description.tipp": "",
+    
+    "ghosts.poltergeist.description": "“Einer der berühmtesten Geister. Ein Poltergeist ist bekannt als ein Wesen, das laut ist und Objekte um sich herum manipuliert, um seinen Opfern Angst einzujagen.”",
+    "ghosts.poltergeist.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Poltergeist' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.poltergeist.description.badges": "<span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-light'>Ultraviolett</span> <span class='badge text-bg-light'>Geisterbuch</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary border border-warning'>Wirft viele Gegenstände</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.poltergeist.description.tipp": "Eine ungeschriebene Eigenart des Poltergeists ist, dass sie die Fähigkeit besitzen, Objekte aus dem Geisterraum zu entfernen und damit ein Ablenkungsmanöver starten, wenn nach Geisteraktivität gesucht wird. Dies kann dazu führen, dass Spieler Zeit damit verschwenden, Bereiche zu durchsuchen, in denen sich der Geist letztendlich nicht befindet.",
+    
+    "ghosts.banshee.description": "“Die Banshee ist ein Jäger und wird alles attackieren. Sie ist dafür bekannt, ihr Opfer zu stalken, bevor sie es tötet.”",
+    "ghosts.banshee.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Banshee' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.banshee.description.badges": "<span class='badge text-bg-light'>Geisterorbs</span> <span class='badge text-bg-light'>Ultraviolett</span> <span class='badge text-bg-light'>D.O.T.S.-Projektor</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.banshee.description.tipp": "Wenn den Spielern bekannt ist, wer das Ziel der Banshee ist, kann sich dieser weit entfernt von ihr verstecken (am besten mit guten Fluchtmöglichkeiten), um es unwahrscheinlicher zu machen, gefunden zu werden, während die anderen Spieler Aufgaben erfüllen können.",
+    
+    "ghosts.jinn.description": "“Ein Dschinn ist ein territorialer Geist, der bei Bedrängnis angreift. Er ist ebenfalls bekannt dafür, sich mit hoher Geschwindigkeit zu bewegen.”",
+    "ghosts.jinn.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Dschinn' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.jinn.description.badges": "<span class='badge text-bg-light'>EMF Level 5</span> <span class='badge text-bg-light'>Ultraviolett</span> <span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Schnell</span> <span class='badge text-bg-secondary border border-warning'>Schnell wenn weit weg & Sicherung an</span>",
+    "ghosts.jinn.description.tipp": "Bei einem Dschinn können Kerzen sehr hilfreich sein, da sie ohne Strom Licht spenden. Es empfiehlt sich also, viele Kerzen aufzustellen und den Strom abzustellen.",
+    
+    "ghosts.mare.description": "“Eine Mare ist die Quelle von allen Albträumen, Sie wird bei Nacht am stärksten. Es wird erzählt, dass eine Mare den Verstand von Menschen kontrollieren kann.”",
+    "ghosts.mare.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Mare' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.mare.description.badges": "<span class='badge text-bg-light'>Geisterbuch</span> <span class='badge text-bg-light'>Geisterobs</span> <span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.mare.description.tipp": "Besteht der Verdacht auf einen Mare als Geist, sollte das Licht immer eingeschaltet bleiben, bzw. sofort eingeschaltet werden, wenn der Geist es ausschaltet. Jedoch sollte ausgeschlossen sein, dass der Geist ein Dschinn ist, da dieser seine Energie aus Strom nimmt. Vor allem auf größeren Maps ist es hilfreich, wenn ein Mitspieler in der Nähe des Sicherungskastens bleibt, um den Strom im Bedarfsfall wieder einzuschalten.",
+    
+    "ghosts.revenant.description": "“Ein Revenant ist langsam, aber attackiert heftig und wahllos. Gerüchten zufolge ist ein Revenant schneller, wenn er jemanden jagt.”",
+    "ghosts.revenant.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Revenant' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.revenant.description.badges": "<span class='badge text-bg-light'>Geisterorbs</span> <span class='badge text-bg-light'>Geisterbuch</span> <span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Langsam</span> <span class='badge text-bg-secondary'>Extrem Schnell</span> <span class='badge text-bg-secondary border border-warning'>Sehr schnell in Sichtlinie</span>",
+    "ghosts.revenant.description.tipp": "Wegen der Fähigkeit des Revenants, ist es essenziell, sich vor ihm während der Jagd zu verstecken. Man kann vor ihm nicht wie vor allen anderen Geistern davonlaufen. Die letzte Möglichkeit zu entkommen ist, indem man Räucherstäbchen anzündet, die den Geist für einige Sekunden herumirren lassen und man in dieser Zeit aus seinem Sichtfeld gelangt und sich versteckt. Um dies leichter zu schaffen, sollte man möglichst Türen hinter sich schließen oder um Ecken gehen.",
+    
+    "ghosts.shade.description": "“Der Shade ist bekannt als ein schüchterner Geist. Wenn mehrere Menschen zusammen sind, werden alle paranormale Aktivitäten gestoppt.”",
+    "ghosts.shade.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Shade' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.shade.description.badges": "<span class='badge text-bg-light'>EMF Level 5</span> <span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-light'>Geisterbuch</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.shade.description.tipp": "Manche Räume, die vermeintlich einen großen Raum darstellen, bestehen in Wirklichkeit aus mehreren Räumen (z.B. die Zellblöcke im Prison). Dies sollte auf jeden Fall beachtet werden, damit die Spieler sich nicht in falscher Sicherheit wiegen, wenn sie im vermeintlich selben Raum stehen.",
+    
+    "ghosts.demon.description": "“Ein Dämon ist mit einer der schlimmsten Geister, die man finden kann. Er ist bekannt dafür, ohne Sinn und Verstand anzugreifen.”",
+    "ghosts.demon.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/D%C3%A4mon' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.demon.description.badges": "<span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-light'>Geisterbuch</span> <span class='badge text-bg-light'>Ultraviolett</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.demon.description.tipp": "Bei einem Dämon als Geist sind Sanity Pillen sehr hilfreich, da er bei niedrigem Geisteszustand in sehr kurzen Intervallen jagen kann und wird. Findet man ein Ouija-Brett, bevor man den Geist identifiziert hat, kann man durch es leicht feststellen, ob der Geist ein Dämon ist oder nicht. Ein Spieler benutzt das Ouija-Brett, während der andere im Truck auf dessen Geisteszustand achtet. Im Falle einer geglückten Nutzung des Bretts, wird der Geisteszustand um 5-10% sinken - außer, wenn der Geist ein Dämon ist.",
+    
+    "ghosts.yurei.description": "“Ein Yurei ist ein Geist, der in die physische Welt zurückkehrte, aus Gründen des Hasses oder einer unerfüllten Rache.”",
+    "ghosts.yurei.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Yurei' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.yurei.description.badges": "<span class='badge text-bg-light'>Geisterorbs</span> <span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-light'>D.O.T.S.-Projektor</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.yurei.description.tipp": "",
+    
+    "ghosts.oni.description": "“Oni's sind Verwandte des Dämons und besitzen unglaubliche Stärke. Gerüchten zufolge sind sie aktiver in der Nähe ihres Opfers.”",
+    "ghosts.oni.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Oni' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.oni.description.badges": "<span class='badge text-bg-light'>EMF Level 5</span> <span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-light'>D.O.T.S.-Projektor</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary border border-warning'>Blinkt extrem schnell</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.oni.description.tipp": "Da Onis die aktivsten Geister sind, findet man - vor allem in Gruppen - leichter Beweise. Ein Oni kann auch weit vom Geisterraum entfernt aktiv sein. Durch diese 'Ablenkungsmanöver' kann das Finden des Geisterraums erschwert werden.",
+    
+    "ghosts.hantu.description": "“Ein Hantu ist ein seltener Geist, der in kalten Klimazonen zu finden ist. Sie sind dafür bekannt, dass sie bei kaltem Wetter häufig angreifen.”",
+    "ghosts.hantu.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Hantu' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.hantu.description.badges": "<span class='badge text-bg-light'>Ultraviolett</span> <span class='badge text-bg-light'>Geisterorbs</span> <span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Eisiger Atem</span> <span class='badge text-bg-secondary'>Langsam</span> <span class='badge text-bg-secondary'>Extrem Schnell</span> <span class='badge text-bg-secondary border border-warning'>Schnell bei niedrigen Temperaturen</span>",
+    "ghosts.hantu.description.tipp": "Solange man das Haus warm hält, muss man sich keine Sorgen bei Jagden machen, da der Hantu dann deutlich langsamer ist als der Spieler.",
+    
+    "ghosts.yokai.description": "“Ein Yokai ist ein gängiger Geist, der von menschlichen Stimmen angezogen wird. Sie spuken normalerweise in Familienhäusern.”",
+    "ghosts.yokai.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Yokai' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.yokai.description.badges": "<span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-light'>Geisterorbs</span> <span class='badge text-bg-light'>D.O.T.S.-Projektor</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.yokai.description.tipp": "Da Yokai bei der Jagd nur Stimmen in ihrer Nähe hören kann, kann man sich unterhalten, wenn er weit genug weg ist. Man kann einfach erkennen, ob es sich um einen Yokai handelt, indem man durch das Haus läuft und ihn durchs Reden provoziert.",
+    
+    "ghosts.goryo.description": "“Goryo sind dafür bekannt, dass sie nur auf Videoaufnahmen erscheinen, wenn sie mit einem D.O.T.S.-Projektor interagieren.”",
+    "ghosts.goryo.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Goryo' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.goryo.description.badges": "<span class='badge text-bg-light'>EMF Level 5</span> <span class='badge text-bg-light'>Ultraviolett</span> <span class='badge text-bg-light'>D.O.T.S.-Projektor</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.goryo.description.tipp": "Es wird eine Videokamera benötigt, die entweder auf einen aktiven D.O.T.S.-Projektor gerichtet ist oder von einem Spieler außerhalb des Geisterraums gehalten wird. Wenn D.O.T.S.-Beweise auf dem Kamerabildschirm sichtbar sind, aber in der direkten Sicht unsichtbar sind, ist der Geist wahrscheinlich ein Goryo. Wird D.O.T.S. hingegen ohne die Hilfe einer Videokamera gesehen oder wird D.O.T.S. gesehen, während sich die Spieler im Raum des Geistes befinden, kann ein Goryo sicher ausgeschlossen werden.",
+    
+    "ghosts.myling.description": "“Ein Myling ist dafür bekannt, dass er bei der Jagd leiser ist.”",
+    "ghosts.myling.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Myling' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.myling.description.badges": "<span class='badge text-bg-light'>EMF Level 5</span> <span class='badge text-bg-light'>Ultraviolett</span> <span class='badge text-bg-light'>Geisterbuch</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary border border-warning'>Extrem leise</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.myling.description.tipp": "Die Trittschalldistanz eines jagenden Mylings entspricht in etwa der Distanz, innerhalb derer die Elektronik gestört wird. Während einer Jagd kann ein Spieler eine Taschenlampe auf den Boden fallen lassen. Wenn das Gespenst auf demselben Boden steht und die Schritte nur dann zu hören sind, wenn die Taschenlampe zu flackern beginnt, ist der Geist wahrscheinlich ein Myling.",
+    
+    "ghosts.onryo.description": "“Der Onryo ist bekannt dafür, dass er sich vor Feuer hütet; wenn das Feuer jedoch erlischt, sollte man sich vor seiner Rache in Acht nehmen, denn ein Onryo kann sich zur Jagd entschließen, sobald keine Flammen mehr da sind, die ihn in Schach halten.”",
+    "ghosts.onryo.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Onryo' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.onryo.description.badges": "<span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-light'>Geisterorbs</span> <span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Normale Geschwindigkeit</span>",
+    "ghosts.onryo.description.tipp": "Ausreichend Kerzen und ständiges Wiederanzünden können ihn davon abhalten, zu jagen, und dies kann auch als Identifikation für den Geist im Schwierigkeitsgrad Alptraum dienen. Andererseits erhöht sich das Risiko, dass der Onryo jagt, wenn er nur eine Kerze in Reichweite hat und diese ausbläst. Letzteres ist sogar noch riskanter, wenn ein oder mehrere Spieler gestorben sind, da eine Jagd mit einem toten Teamkollegen viel wahrscheinlicher und mit zwei fast sicher ist. Die Spieler sollten abwägen, ob es sich lohnt, Flammen in der Nähe des Geistes anzuzünden, um eine Jagd zu verhindern.",
+    
+    "ghosts.twins.description": "“Sie sind dafür bekannt, als 'Paar' zu existieren, wobei beide Zwillinge in der Lage sind, mit der Umwelt zu interagieren und unabhängig voneinander auf die Jagd zu gehen.”",
+    "ghosts.twins.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Die_Zwillinge' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.twins.description.badges": "<span class='badge text-bg-light'>EMF Level 5</span> <span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Langsam</span> <span class='badge text-bg-secondary'>Schnell</span> <span class='badge text-bg-secondary border border-warning'>Wechselnde Geschwindigkeit</span>",
+    "ghosts.twins.description.tipp": "Das Verhalten der Zwillinge lässt sich größtenteils dadurch erklären, dass der Geist im Innern eigentlich nur ein Geist mit zwei Interaktionsbereichen ist. Man kann Die Zwillinge auch an der Aktivitäts Anzeige finden, indem man genau schaut und eine Bogen ähnliche Linie findet. Das ist meistens der Beweis auf Die Zwillinge.",
+    
+    "ghosts.raiju.description": "“Ein Raiju kann elektrischen Geräten in der Nähe Energie entziehen, wodurch er sich schneller bewegen kann.”",
+    "ghosts.raiju.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Raiju' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.raiju.description.badges": "<span class='badge text-bg-light'>EMF Level 5</span> <span class='badge text-bg-light'>Geisterorbs</span> <span class='badge text-bg-light'>D.O.T.S.-Projektor</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary'>Schnell</span> <span class='badge text-bg-secondary border border-warning'>Schnell bei aktiven elektronischen Geräten</span>",
+    "ghosts.raiju.description.tipp": "Der Raiju kann leicht identifiziert werden, wenn man während der Jagd auf seine Geschwindigkeit achtet, insbesondere auf kleinen Karten, solange sich aktive elektronische Gegenstände in der Nähe befinden. Wenn sich der Geist beim Umherstreifen weiterhin sehr schnell bewegt (und nicht hinter bestimmten Spielern her ist), handelt es sich höchstwahrscheinlich um einen Raiju.",
+
+    "ghosts.obake.description": "“Ein Obake ist ein Formwandler. Aber sein Talent ist seine Unauffälligkeit. Ein Obake wird selten einen Hinweis in dem Raum hinterlassen, indem er sich befindet.”",
+    "ghosts.obake.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Obake' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.obake.description.badges": "<span class='badge text-bg-light'>EMF Level 5</span> <span class='badge text-bg-light'>Fingerabdrücke</span> <span class='badge text-bg-light'>Geisterorbs</span> <span class='badge text-bg-secondary'>Fußabdruck im Salz</span> <span class='badge text-bg-secondary border border-warning'>Wechselnde Geistermodelle</span> <span class='badge text-bg-secondary border border-warning'>Handabdruck mit sechs Fingern</span>",
+    "ghosts.obake.description.tipp": "Jeder Handabdruck eines Obake kann fünf oder sechs Finger haben. Die Anzahl der Finger kann unterschiedlich sein, auch wenn der Obake dieselbe Oberfläche mehrmals berührt. Da der Handabdruck mit sechs Fingern einzigartig für einen Obake ist, kann er ihn eindeutig identifizieren. Ein Handabdruck mit fünf Fingern schließt einen Obake jedoch nicht unbedingt aus.",
+
+    "ghosts.mimic.description": "“Eine Mimik imitiert andere Geister (der Geist ändert sich gelegentlich). Er kann beispielsweise Fingerabdrücke mit 6 Fingern hinterlassen, was sonst nur ein Obake kann. Geisterorbs erscheinen, obwohl sie kein Beweis für eine Mimik sind.”",
+    "ghosts.mimic.description.wikilink": "<a class='btn btn btn-outline-light' href='https://phasmophobia.fandom.com/de/wiki/Mimik' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.mimic.description.badges": "<span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-light'>Fingerabdrücke</span> <span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-secondary border border-warning'>Alle Hinweise und Geschwindigkeiten möglich</span>",
+    "ghosts.mimic.description.tipp": "Die Fähigkeit des Mimiks andere Geister nachzuahmen erlaubt es ihm jede Fähigkeit jedes Geistes zu haben. Und das Theoretisch alle 30 sekunden. Die sicherste Art zu spielen ist es den Geist zu behandeln als hätte er alle Fähigkeiten gleichzeitig, da man sich nie sicher sein kann wie lange er einen Geist nachahmt. Und welchen Geist er nachahmt ist nicht immer gleich ersichtlich.",
+
+    "ghosts.moroi.description": "“Moroi sind aus den Gräbern auferstanden, um den Lebenden Energie zu entziehen. Es ist bekannt, dass sie ihre Opfer mit Flüchen belegen, die nur durch Gegenmittel oder eine weite Entfernung geheilt werden können.”",
+    "ghosts.moroi.description.wikilink": "<a class='btn btn btn-outline-light mb-3' href='https://phasmophobia.fandom.com/de/wiki/Moroi' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.moroi.description.badges": "<span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-light'>Geisterbuch</span> <span class='badge text-bg-light'>Gefriertemperaturen</span> <span class='badge text-bg-secondary'>Schnell</span> <span class='badge text-bg-secondary border border-warning'>Schneller bei niedriger geistiger Gesundheit</span>",
+    "ghosts.moroi.description.tipp": "Angesichts der Fähigkeit der Moroi, nach einer Antwort durch die Geisterbox den Verstand zu verlieren, wird empfohlen, die Geisterbox nach der ersten Antwort nicht mehr zu benutzen. Falls erforderlich, sollte nur der Spieler, der zuvor Fragen gestellt hat, die Beweise überprüfen, und andere Spieler sollten sich fernhalten, während sie Fragen stellen.",
+
+    "ghosts.deogen.description": "“Manchmal mit einem unendlichen Nebel umgeben, sind Deogen sämtlichen Geisterjägern entkommen. Es wurde berichtet, dass diese Art von Geist selbst die verborgensten Opfer findet, um ihnen bis zur Erschöpfung nachzustellen.”",
+    "ghosts.deogen.description.wikilink": "<a class='btn btn btn-outline-light mb-3' href='https://phasmophobia.fandom.com/de/wiki/Deogen' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2'></i></a>",
+    "ghosts.deogen.description.badges": "<span class='badge text-bg-light'>Geisterbox</span> <span class='badge text-bg-light'>Geisterbuch</span> <span class='badge text-bg-light'>D.O.T.S.-Projektor</span> <span class='badge text-bg-secondary'>Langsam</span> <span class='badge text-bg-secondary'>Extrem schnell</span> <span class='badge text-bg-secondary border border-warning'>Schnell wenn weit weg</span> <span class='badge text-bg-secondary border border-warning'>Sehr langsam wenn sehr nahe</span>",
+    "ghosts.deogen.description.tipp": "",
+
+    "ghosts.thaye.description": "“Thaye sind dafür bekannt, selbst im Jenseits schnell zu altern. Von dem, was wir gehört haben, scheinen sie schneller zu verkommen, wenn sie in der Gegenwart von Lebenden sind.”",
+    "ghosts.thaye.description.wikilink": "<a class='btn btn btn-outline-light mb-3' href='https://phasmophobia.fandom.com/de/wiki/Thaye' target='_blank'>Zum Wiki-Eintrag<i class='fa-solid fa-chevron-right ms-2' aria-hidden='true'></i></a>",
+    "ghosts.thaye.description.badges": "<span class='badge text-bg-light'>Geisterorbs</span> <span class='badge text-bg-light'>Geisterbuch</span> <span class='badge text-bg-light'>D.O.T.S.-Projektor</span> <span class='badge text-bg-secondary'>Langsam</span> <span class='badge text-bg-secondary'>Extrem schnell</span> <span class='badge text-bg-secondary border border-warning'>Jagd sehr früh im Spiel</span> <span class='badge text-bg-secondary border border-warning'>Anfangs schnell, langsamer über Zeit</span>",
+    "ghosts.thaye.description.tipp": "Mit einem Thaye werden sowohl die Interaktionen als auch die Ereignisse von Beginn der Untersuchung an häufiger sein, was es einfacher machen kann, den Geist zu lokalisieren. Andererseits kann der Thaye, wenn die Spieler den Geist nicht schnell ausfindig machen, vor allem auf großen Karten, schnell die Schwelle der Jagdtauglichkeit erreichen und anfangen zu jagen, was ihn potenziell so aggressiv wie einen Dämon macht (und möglicherweise mit einem solchen verwechselt wird).",
+
 
     "made-with-love": "Mit <i class='fa-solid fa-heart text-danger'></i> gemacht, von Spielern für Spieler!",
     "contact": "<i class='fa-solid fa-envelope me-3'></i>Bei Fragen und Anregungen gerne eine <a class='text-nowrap' href='redirect-mailto.php'>Mail schreiben</a>!"

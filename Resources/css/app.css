@@ -393,6 +393,44 @@ main {
     opacity: .5;
 }
 
+.accordion {
+    --bs-accordion-active-color: var(--bs-light);
+    --bs-accordion-active-bg: #212121;
+    --bs-accordion-bg: #212121;
+    --bs-link-color-rgb: var(--bs-light-rgb);
+
+    &.has-tip-false {
+        display: none;
+    }
+}
+
+.accordion-button {
+    font-size: 1.25rem;
+
+    &:focus {
+        outline: 0 !important;
+        border: 0 !important;
+        box-shadow: unset !important;
+    }
+
+    &:hover {
+        background-color: #333333;
+    }
+
+    &::after {
+        content: '\f078';
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        background-image: none !important;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        translate: 0 -50%;
+        height: 14px;
+        line-height: 14px;
+    }
+}
+
 @media screen and (max-width: 575px) {
     .reset-button {
         position: unset;

@@ -2,6 +2,7 @@
 	{
 		"id": "spirit",
 		"name": "Spirit",
+		"hasTip": "false",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": true,
@@ -38,6 +39,7 @@
 	{
 		"id": "wraith",
 		"name": "Gespenst",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -74,6 +76,7 @@
 	{
 		"id": "phantom",
 		"name": "Phantom",
+		"hasTip": "false",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -110,6 +113,7 @@
 	{
 		"id": "poltergeist",
 		"name": "Poltergeist",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": true,
@@ -146,6 +150,7 @@
 	{
 		"id": "banshee",
 		"name": "Banshee",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -182,6 +187,7 @@
 	{
 		"id": "jinn",
 		"name": "Dschinn",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -218,6 +224,7 @@
 	{
 		"id": "mare",
 		"name": "Mare",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": true,
@@ -254,6 +261,7 @@
 	{
 		"id": "revenant",
 		"name": "Revenant",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": true,
@@ -290,6 +298,7 @@
 	{
 		"id": "shade",
 		"name": "Shade",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": true,
@@ -326,6 +335,7 @@
 	{
 		"id": "demon",
 		"name": "Demon",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": true,
@@ -362,6 +372,7 @@
 	{
 		"id": "yurei",
 		"name": "Yurei",
+		"hasTip": "false",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -398,6 +409,7 @@
 	{
 		"id": "oni",
 		"name": "Oni",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -434,6 +446,7 @@
 	{
 		"id": "hantu",
 		"name": "Hantu",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -470,6 +483,7 @@
 	{
 		"id": "yokai",
 		"name": "Yokai",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -506,6 +520,7 @@
 	{
 		"id": "goryo",
 		"name": "Goryo",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -542,6 +557,7 @@
 	{
 		"id": "myling",
 		"name": "Myling",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": true,
@@ -578,6 +594,7 @@
 	{
 		"id": "onryo",
 		"name": "Onryo",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -614,6 +631,7 @@
 	{
 		"id": "twins",
 		"name": "Zwillinge",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -650,6 +668,7 @@
 	{
 		"id": "raiju",
 		"name": "Raiju",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -686,6 +705,7 @@
 	{
 		"id": "obake",
 		"name": "Obake",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": false,
@@ -722,6 +742,7 @@
 	{
 		"id": "mimic",
 		"name": "Mimik",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": true,
 		"filters": {
 			"geisterbuch": false,
@@ -758,6 +779,7 @@
 	{
 		"id": "moroi",
 		"name": "Moroi",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": true,
@@ -794,6 +816,7 @@
 	{
 		"id": "deogen",
 		"name": "Deogen",
+		"hasTip": "false",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": true,
@@ -830,6 +853,7 @@
 	{
 		"id": "thaye",
 		"name": "Thaye",
+		"hasTip": "true",
 		"ignoreNotEvidenceExclude": false,
 		"filters": {
 			"geisterbuch": true,
